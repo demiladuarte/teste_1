@@ -1,0 +1,65 @@
+---
+title: "Curso_Cesar"
+output: html_notebook
+---
+
+# Carregando os pacotes 
+```{r}
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+
+library("tidyverse")
+library("palmerpenguins")
+```
+
+#glimpse 
+```{r}
+glimpse(penguins)
+```
+#verbos básicos 
+```{r}
+mutate_simples <- mutate(penguins,
+                         tamanho_nadadeira =
+                           if_else(flipper_length_mm > 200, "longa", "curta"))
+```
+
+#inserindo o operador pipe 
+```{r}
+
+nadadeiras <- penguins |>
+  
+```
+# Nova variável com base em condição 
+```{r}
+mutate(tamanho_nadadeira = 
+          if_else(flipper_lenght_mm > 200, "longa", "curta")) |>
+        filter 
+```
+
+```{r}
+getwd()
+```
+
+```{r}
+
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+
